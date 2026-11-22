@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mika Amir – Videographer</title>
+<meta name="description" content="Mika Amir – Berlin-based videographer and video editor for musicians: live shows, sessions, events and press shots.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mika Amir – Videographer &amp; Video Editor">
+<meta property="og:description" content="Berlin-based videographer and editor for musicians: live shows, sessions, events and press shots.">
+<meta property="og:url" content="https://mikamirportfolio.github.io/videographer/">
+<meta property="og:image" content="https://mikamirportfolio.github.io/videographer/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230c0b10'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23e7a75e' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: a screening room. Big condensed name, then the reel as an even wall of frames (vertical cuts in fours, wide cuts in pairs), then credits like an end roll. Text never sits on footage. */
+:root{
+  --night:#0b0a0e;
+  --panel:#141219;
+  --ink:#efeaf3;
+  --dim:#9a91a5;
+  --amber:#e7a75e;   /* tally light / REC */
+  --violet:#b98aff;
+  --line:#25202d;
+  --display:"Anton", Impact, "Arial Narrow", sans-serif;
+  --body:"Karla", system-ui, sans-serif;
+  --mono:"DM Mono", ui-monospace, monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--night);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+a{color:var(--ink);text-decoration-color:var(--amber);text-underline-offset:3px}
+a:hover{color:var(--amber)}
+a:focus-visible,video:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+img,video{max-width:100%;display:block}
+p{margin:0}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.mono{font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase}
+.dim{color:var(--dim)}
+h1,h2{font-family:var(--display);font-weight:400;margin:0;letter-spacing:.01em;text-transform:uppercase}
+h2{font-size:clamp(2rem,4.5vw,3rem);line-height:1}
+
+/* top bar */
+.bar{border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;justify-content:space-between;align-items:center;height:56px;gap:16px}
+.rec{display:inline-flex;align-items:center;gap:10px}
+.rec i{width:9px;height:9px;border-radius:50%;background:var(--amber);display:inline-block}
+.bar nav{display:flex;gap:18px;font-family:var(--mono);font-size:.76rem;letter-spacing:.12em;text-transform:uppercase}
+.bar nav a{text-decoration:none;color:var(--dim)}
+.bar nav a:hover{color:var(--ink)}
+
+/* hero */
+header{padding:56px 0 40px}
+.hero{display:grid;grid-template-columns:1fr 1.15fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(4rem,11vw,8.5rem);line-height:.88}
+.hero .role{font-size:1.25rem;margin:22px 0 14px}
+.hero .role b{color:var(--amber);font-weight:500}
+.hero .lead{max-width:48ch;color:var(--dim)}
+.contact{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:24px;font-family:var(--mono);font-size:.82rem}
+.feature{display:grid;gap:10px}
+.feature video{width:100%;aspect-ratio:16/9;object-fit:cover;background:#000;border-radius:3px}
+
+/* services strip */
+.strip{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip div{padding:18px 18px;display:grid;gap:4px}
+.strip div+div{border-left:1px solid var(--line)}
+.strip b{font-weight:500}
+
+section{padding:72px 0 0}
+.head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:26px}
+
+/* reel */
+.vert{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.wide{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.clip{display:grid;gap:9px;align-content:start}
+.clip video{width:100%;background:#000;border-radius:3px;object-fit:cover}
+.vert video{aspect-ratio:9/16}
+.wide video{aspect-ratio:16/9}
+.clip .t{font-weight:500;line-height:1.3}
+.clip .s{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.86rem;color:var(--dim)}
+.clip .s a{font-family:var(--mono);font-size:.74rem}
+
+/* experience */
+.exp{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
+.exp h3{font-family:var(--mono);font-weight:400;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.exp ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.exp li span{display:block;font-size:.86rem;color:var(--dim)}
+
+/* photos */
+.photos{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.photos figure{margin:0;display:grid;gap:6px}
+.photos img{width:100%;object-fit:cover;border-radius:3px}
+.photos .p{grid-column:span 2}.photos .p img{aspect-ratio:2/3}
+.photos .w{grid-column:span 3}.photos .w img{aspect-ratio:3/2}
+.photos .w3{grid-column:span 2}.photos .w3 img{aspect-ratio:3/2}
+.photos figcaption{font-size:.8rem;color:var(--dim)}
+
+footer{margin-top:88px;padding:56px 0 72px;border-top:1px solid var(--line)}
+footer h2{font-size:clamp(2.4rem,6vw,4.4rem)}
+footer .also{margin-top:22px;color:var(--dim)}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr}
+  .strip{grid-template-columns:1fr 1fr}
+  .strip div+div{border-left:0}
+  .strip div{border-top:1px solid var(--line)}
+  .vert{grid-template-columns:1fr 1fr}
+  .exp{grid-template-columns:1fr}
+  .photos{grid-template-columns:1fr 1fr}
+  .photos .p,.photos .w,.photos .w3{grid-column:span 1}
+}
+@media (max-width:900px){ .wide{grid-template-columns:1fr 1fr} }
+@media (max-width:540px){ .wide{grid-template-columns:1fr} .bar nav{display:none} }
+@page{size:A4;margin:0}
+@media print{ .bar{display:none} html,body{font-size:12px} .vert video,.wide video{break-inside:avoid} .clip,.exp>div,figure{break-inside:avoid} }
+</style>
+</head>
+<body>
+<div class="bar"><div class="wrap">
+  <span class="rec mono"><i></i>Mika Amir · Videographer</span>
+  <nav aria-label="Sections"><a href="#reel">Reel</a><a href="#experience">Experience</a><a href="#photo">Photo</a><a href="#contact">Contact</a></nav>
+</div></div>
+
+<header>
+  <div class="wrap hero">
+    <div>
+      <div class="mono dim">Berlin · Tel Aviv</div>
+      <h1 style="margin-top:12px">Mika<br>Amir</h1>
+      <p class="role"><b>Videographer &amp; video editor</b> for musicians</p>
+      <p class="lead">Live shows, sessions, events and press shots, filmed and cut for stage, YouTube and social. A musician herself, she films with an ear for the song.</p>
+      <div class="contact">
+        <span>mikamir.music@gmail.com</span>
+        <span>+49 176 41120684</span>
+        <a href="https://www.instagram.com/mikamir_/">Instagram</a>
+      </div>
+    </div>
+    <div class="feature">
+      <video controls playsinline preload="metadata" poster="../kodesh_live_poster.jpg" src="../kodesh_live.mp4"></video>
+      <div class="clip"><div class="s"><span><b style="color:var(--ink);font-weight:500">Edog &amp; Shablul · "Kodesh" Live Session</b> · filmed &amp; edited, 2026</span><a href="https://www.youtube.com/watch?v=FrdnT4_e4Ss">YouTube ↗</a></div></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="strip">
+    <div><span class="mono dim">01</span><b>Live shows</b></div>
+    <div><span class="mono dim">02</span><b>Live sessions</b></div>
+    <div><span class="mono dim">03</span><b>Social edits</b></div>
+    <div><span class="mono dim">04</span><b>Press shots</b></div>
+    <div><span class="mono dim">05</span><b>Events</b></div>
+  </div>
+</div>
+
+<main class="wrap">
+<section id="reel">
+  <div class="head"><h2>Reel</h2><span class="mono dim">Filmed &amp; edited by Mika</span></div>
+  <div class="vert">
+    <div class="clip">
+      <video controls playsinline preload="metadata" poster="raufman_live_poster.jpg" src="raufman_live.mp4"></video>
+      <span class="t">Tal Raufman</span>
+      <div class="s"><span>Live show</span><a href="https://www.instagram.com/raufman_/">@raufman_ ↗</a></div>
+    </div>
+    <div class="clip">
+      <video controls playsinline preload="metadata" poster="daniel_rubin_live_poster.jpg" src="daniel_rubin_live.mp4"></video>
+      <span class="t">Daniel Rubin</span>
+      <div class="s"><span>Live show</span></div>
+    </div>
+    <div class="clip">
+      <video controls playsinline preload="metadata" poster="ariela_baruch_2_poster.jpg" src="ariela_baruch_2.mp4"></video>
+      <span class="t">Ariela Baruch</span>
+      <div class="s"><span>Live show · social edit</span><a href="https://www.instagram.com/arielabaruh/">@arielabaruh ↗</a></div>
+    </div>
+    <div class="clip">
+      <video controls playsinline preload="metadata" poster="ariela_baruch_1_poster.jpg" src="ariela_baruch_1.mp4"></video>
+      <span class="t">Ariela Baruch</span>
+      <div class="s"><span>Live show · social edit</span></div>
+    </div>
+  </div>
+  <div class="wide">
+    <div class="clip">
+      <video controls playsinline preload="metadata" poster="jazz_session_poster.jpg" src="jazz_session.mp4"></video>
+      <span class="t">Live session</span>
+      <div class="s"><span>Double bass, drums, sax</span></div>
+    </div>
+    <div class="clip">
+      <video controls playsinline preload="metadata" poster="rooftop_live_poster.jpg" src="rooftop_live.mp4"></video>
+      <span class="t">Sofar Sounds</span>
+      <div class="s"><span>Rooftop show</span></div>
+    </div>
+    <div class="clip">
+      <video controls playsinline preload="metadata" poster="../nada_live_poster.jpg" src="../nada_live.mp4"></video>
+      <span class="t">Nada</span>
+      <div class="s"><span>Live at Little Stage Club, Berlin</span><a href="https://www.instagram.com/reel/DYm00thM8DG/">Instagram ↗</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="head"><h2>Experience</h2></div>
+  <div class="exp">
+    <div>
+      <h3>Live shows</h3>
+      <ul>
+        <li>Tal Raufman</li>
+        <li>Daniel Rubin<span>Barby, Tel Aviv</span></li>
+        <li>Nunu<span>Barby, Tel Aviv</span></li>
+        <li>Ariela Baruch</li>
+        <li>Liam Hakmon</li>
+        <li>Roni Kaspi (Roni Poni)</li>
+        <li>Gali Yolus</li>
+        <li>Nastia Rod · Peled</li>
+        <li>Nada<span>Little Stage Club, Berlin</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Sessions &amp; music videos</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=FrdnT4_e4Ss">Edog &amp; Shablul · "Kodesh" Live Session</a><span>Filmed and edited, with Live_Zach · 2026</span></li>
+        <li><a href="https://www.instagram.com/lalarasnow/reel/DMmq5VstVuR/">Lara Snow · "Poetry Kids"</a><span>Music video · assistant photography, BTS · 2025</span></li>
+        <li>Sofar Sounds<span>Rooftop show</span></li>
+        <li>Live session<span>Double bass, drums, sax</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Events &amp; press</h3>
+      <ul>
+        <li>Weddings<span>Ceremony and reception, Berlin</span></li>
+        <li>Press shots<span>Portraits for musicians</span></li>
+        <li>Own music videos and live content<span>As the artist <a href="../">Mikamir</a></span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="photo">
+  <div class="head"><h2>Photo</h2><span class="mono dim">Press shots · weddings</span></div>
+  <div class="photos">
+    <figure class="p"><img src="../press1.jpg" alt="Press portrait holding a book in low light"><figcaption>Press shot</figcaption></figure>
+    <figure class="p"><img src="../press2.jpg" alt="Press portrait looking over a book"><figcaption>Press shot</figcaption></figure>
+    <figure class="p"><img src="../wed_couple.jpg" alt="Wedding couple laughing during the ceremony"><figcaption>Wedding, Berlin</figcaption></figure>
+    <figure class="w"><img src="../wed_ceremony.jpg" alt="Wedding ceremony under stained-glass windows"><figcaption>Wedding, Berlin</figcaption></figure>
+    <figure class="w"><img src="../wed_garden.jpg" alt="Wedding reception in a riverside garden"><figcaption>Wedding, Berlin</figcaption></figure>
+    <figure class="w"><img src="../wed_stairs.jpg" alt="Guests climbing a staircase lit by stained glass"><figcaption>Wedding, Berlin</figcaption></figure>
+    <figure class="w"><img src="../wed_staircase.jpg" alt="Spiral staircase in warm light"><figcaption>Wedding, Berlin</figcaption></figure>
+  </div>
+</section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <span class="rec mono"><i></i>Booking</span>
+    <h2 style="margin:14px 0 18px">Filming a show,<br>a session or an event?</h2>
+    <div class="contact" style="font-size:1rem">
+      <span>mikamir.music@gmail.com</span>
+      <span>+49 176 41120684</span>
+      <a href="https://www.instagram.com/mikamir_/">@mikamir_</a>
+    </div>
+    <p class="also">Based in Berlin · Hebrew, English · Musician portfolio and CV: <a href="../">mikamirportfolio.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>
