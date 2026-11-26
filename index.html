@@ -3,48 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mikamir – Portfolio & CV</title>
-<meta name="description" content="Mika Amir-Anzwieg (Mikamir) – Berlin-based guitarist, multi-instrumentalist, artist and videographer. Portfolio and CV.">
+<title>Mikamir – Dark Groove music</title>
+<meta name="description" content="Mika Amir-Anzwieg (Mikamir) – Berlin-based guitarist and multi-instrumentalist. Live videos, own music as Mikamir, live work and CV.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Mika Amir – Portfolio · CV">
-<meta property="og:description" content="Berlin-based guitarist, multi-instrumentalist and videographer. Live musician for Georgia Cavallo, Shaked Miller and PORT NOO; artist as Mikamir.">
+<meta property="og:title" content="Mikamir – Dark Groove music">
+<meta property="og:description" content="Berlin-based guitarist and multi-instrumentalist. Artist as Mikamir; live musician for Georgia Cavallo, Shaked Miller and PORT NOO.">
 <meta property="og:url" content="https://mikamirportfolio.github.io/">
 <meta property="og:image" content="https://mikamirportfolio.github.io/og.jpg?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230c0b10'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%23b98aff' font-family='serif'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2308060d'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%23a98bff' font-family='serif'%3EM%3C/text%3E%3C/svg%3E">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Karla:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-/* Layout: one dark stage. Numbered sections read like a set list: who she plays for, watch, her own project, camera work, contact. Single theme by choice; text never sits on images. */
+/* Layout: one dark stage. Numbered sections read like a set list: watch, her own project, who she plays for, contact. Single theme by choice; text never sits on images. */
 :root{
-  --night:#0c0b10;
-  --panel:#15131b;
-  --ink:#eee9f2;
-  --dim:#9c93a8;
-  --violet:#b98aff;
-  --amber:#e7a75e;
-  --line:#26212f;
+  --night:#08060d;
+  --panel:#120d1c;
+  --ink:#efe9f7;
+  --dim:#9d92b3;
+  --violet:#a98bff;
+  --amber:#d6c2ff;
+  --plum:#2b1748;
+  --line:#231a33;
   --display:"Bodoni Moda", Didot, Georgia, serif;
-  --body:"Karla", system-ui, sans-serif;
-  --mono:"DM Mono", ui-monospace, monospace;
+  --body:"Jost", system-ui, sans-serif;
+  --mono:"Jost", system-ui, sans-serif;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
-html,body{margin:0;background:var(--night);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+html,body{margin:0;background:var(--night) radial-gradient(1100px 620px at 82% -8%,rgba(98,52,170,.32),transparent 62%) no-repeat;color:var(--ink);font-family:var(--body);font-weight:300;font-size:17px;line-height:1.65;letter-spacing:.01em}
 a{color:var(--ink);text-decoration-color:var(--violet);text-underline-offset:3px}
 a:hover{color:var(--violet)}
 a:focus-visible,video:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
 img,video{max-width:100%;display:block}
 .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
 h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
-h2{font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.1}
+h2{font-size:clamp(2.1rem,4.4vw,3rem);line-height:1.05;font-style:italic;letter-spacing:-.01em}
 h3{font-size:1.3rem;line-height:1.25}
 p{margin:0}
-.mono{font-family:var(--mono);font-size:.76rem;letter-spacing:.12em;text-transform:uppercase}
+.mono{font-family:var(--mono);font-size:.72rem;font-weight:500;letter-spacing:.32em;text-transform:uppercase}
 .dim{color:var(--dim)}
 .amber{color:var(--amber)}
 .violet{color:var(--violet)}
@@ -52,13 +53,13 @@ p{margin:0}
 /* hero */
 header{padding:56px 0 48px}
 .hero{display:grid;grid-template-columns:1fr 360px;gap:56px;align-items:center}
-.hero h1{font-size:clamp(3rem,8vw,5.6rem);line-height:.95;letter-spacing:-.01em}
-.hero h1 em{color:var(--violet)}
+.hero h1{font-size:clamp(3.2rem,8.6vw,6.2rem);line-height:.95;letter-spacing:.08em;text-transform:uppercase;font-weight:400}
+.hero h1 em{font-style:normal;background:linear-gradient(180deg,#f3ecff 10%,#a98bff 95%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .roles{margin:20px 0 18px;color:var(--dim)}
-.roles b{color:var(--ink);font-weight:500}
+.roles b{color:var(--ink);font-weight:400}
 .lead{max-width:56ch;font-size:1.06rem}
 .contact{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:24px;font-family:var(--mono);font-size:.84rem}
-.portrait img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px}
+.portrait img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px;box-shadow:0 30px 80px -20px rgba(120,70,210,.45)}
 
 /* at a glance */
 .glance{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -85,9 +86,16 @@ section{padding:72px 0 0}
 .video{display:grid;gap:10px;align-content:start}
 .video video{width:100%;height:400px;object-fit:contain;background:#000;border-radius:4px}
 .video.wide{grid-column:span 2}
-.video b{font-weight:500}
+.video b{font-weight:400}
 .video .meta{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
 .video .meta a{font-family:var(--mono);font-size:.78rem}
+
+/* youtube embeds */
+.yt{display:grid;grid-template-columns:repeat(2,1fr);gap:28px 24px}
+.yt .video iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:4px;background:#000}
+.yt .video.feature{grid-column:span 2}
+.clips{margin-top:8px}
+.clips .video video{height:360px}
 
 /* own project */
 .own{display:grid;grid-template-columns:320px 1fr;gap:44px;align-items:start}
@@ -102,15 +110,22 @@ section{padding:72px 0 0}
 .list a span:last-child{font-family:var(--mono);font-size:.76rem;color:var(--dim);white-space:nowrap}
 .list a:hover span:first-child{color:var(--violet)}
 
-/* photos */
-.photos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.photos figure{margin:0;display:grid;gap:6px}
-.photos img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:3px}
-.photos .tall img{aspect-ratio:2/3}
-.photos figcaption{font-size:.82rem;color:var(--dim)}
+
+/* also on stage: small, at the end */
+.also{display:grid;grid-template-columns:1fr 1fr;gap:0 36px;font-size:.95rem}
+.also div{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:9px 0;border-bottom:1px solid var(--line)}
+.also .mono{padding-top:4px;color:var(--dim)}
+.spot{margin-top:22px;width:100%;height:152px;border:0;border-radius:12px;background:#121016;color-scheme:dark}
+
+.hero h1 .logo{display:block;width:min(100%,520px);height:auto}
+/* live photos */
+.nodl img{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;pointer-events:auto}
+.gallery{columns:3 260px;column-gap:12px;margin-top:22px}
+.gallery a{display:block;break-inside:avoid}
+.gallery img{width:100%;display:block;margin:0 0 12px;border-radius:10px;break-inside:avoid;filter:saturate(.92)}
 
 /* names */
-.names{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.names{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
 .names ul{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:5px}
 .names small{color:var(--dim)}
 
@@ -120,15 +135,17 @@ footer h2{font-size:clamp(2rem,5vw,3.4rem)}
 @media (max-width:860px){
   .hero,.own{grid-template-columns:1fr}
   .portrait{max-width:360px}
-  .glance,.names,.list{grid-template-columns:1fr}
+  .glance,.names,.list,.also{grid-template-columns:1fr}
   .glance div+div{border-left:0;border-top:1px solid var(--line)}
   .credit{grid-template-columns:1fr;gap:6px}
-  .videos,.photos{grid-template-columns:1fr 1fr}
+  .videos{grid-template-columns:1fr 1fr}
   .video.wide{grid-column:span 2}
   .video video{height:300px}
+  .yt{grid-template-columns:1fr}
+  .yt .video.feature{grid-column:auto}
 }
 @media (max-width:520px){
-  .videos,.photos{grid-template-columns:1fr}
+  .videos{grid-template-columns:1fr}
   .video.wide{grid-column:auto}
 }
 
@@ -138,7 +155,7 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 @media print{
   html,body{background:var(--night)!important;color:var(--ink)!important}
   header{padding-top:40px}
-  .credit,.video,.photos figure,.timeline div,.names>div,.list a{break-inside:avoid}
+  .credit,.video,.timeline div,.names>div,.list a{break-inside:avoid}
   section{break-inside:auto}
   .video video{height:260px}
   a{text-decoration:underline}
@@ -146,20 +163,20 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .wrap{max-width:none;padding:0 32px}
   .hero{grid-template-columns:1fr 260px!important;gap:32px}
   .own{grid-template-columns:240px 1fr!important}
-  .glance,.names{grid-template-columns:repeat(3,1fr)!important}
+  .glance{grid-template-columns:repeat(3,1fr)!important}.names{grid-template-columns:repeat(2,1fr)!important}
   .glance div+div{border-left:1px solid var(--line)!important;border-top:0!important}
   .list{grid-template-columns:1fr 1fr!important}
   .credit{grid-template-columns:110px 190px 1fr!important;gap:16px}
-  .videos,.photos{grid-template-columns:repeat(3,1fr)!important}
+  .videos{grid-template-columns:repeat(3,1fr)!important}
   .video.wide{grid-column:span 2!important}
   section{padding-top:44px}
   footer{margin-top:48px}
 }
 
 /* site nav + views */
-.topnav{position:sticky;top:0;z-index:10;background:rgba(12,11,16,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.topnav{position:sticky;top:0;z-index:10;background:rgba(8,6,13,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .topnav .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;height:56px}
-.topnav .brand{font-family:var(--display);font-size:1.25rem;text-decoration:none}
+.topnav .brand{font-family:var(--display);font-style:italic;font-size:1.5rem;text-decoration:none}
 .topnav nav{display:flex;gap:6px}
 .topnav nav a{font-family:var(--mono);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;padding:8px 14px;border:1px solid transparent;border-radius:999px;color:var(--dim)}
 .topnav nav a[aria-current="page"]{color:var(--ink);border-color:var(--violet)}
@@ -187,17 +204,18 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 <body>
 <div class="topnav"><div class="wrap">
   <a class="brand" href="#portfolio">Mikamir</a>
-  <nav aria-label="Site"><a href="#portfolio" id="nav-portfolio">Portfolio</a><a href="#cv" id="nav-cv">CV</a></nav>
+  <nav aria-label="Site"><a href="#portfolio" id="nav-portfolio">Mikamir</a><a href="#cv" id="nav-cv">CV</a></nav>
 </div></div>
 <div class="view" id="view-portfolio">
 
 <header>
   <div class="wrap hero">
     <div>
-      <div class="mono amber">Berlin · Guitar · Dark Groove</div>
-      <h1 style="margin-top:14px">Mika<br><em>Amir</em>&#8209;Anzwieg</h1>
-      <p class="roles"><b>Guitarist</b> · multi-instrumentalist · artist as <b>Mikamir</b> · videographer</p>
-      <p class="lead">Self-taught on guitar, bass, drums, sax and keys. Plays live for Georgia Cavallo and Shaked Miller, toured Germany with PORT NOO, and joins Lauren Lakis on tour in April 2027. As Mikamir she writes and self-produces her own music.</p>
+      <div class="mono amber">Berlin · Dark Groove</div>
+      <h1 style="margin-top:18px"><img class="logo" src="mikamir_logo.png" alt="Mikamir" width="1136" height="342"></h1>
+      <p class="dim" style="margin-top:10px;font-family:var(--display);font-size:1.5rem">Mika Amir&#8209;Anzwieg</p>
+      <p class="roles"><b>Songwriter</b> · <b>guitarist</b> · self-producer</p>
+      <p class="lead">Mikamir is the music of Mika Amir&#8209;Anzwieg: songs she writes, plays and self-produces, in a sound she calls Dark Groove. Self-taught on guitar, bass, drums, sax and keys.</p>
       <div class="contact">
         <span>mikamir.music@gmail.com</span>
         <span>+49 176 41120684</span>
@@ -207,43 +225,73 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
         <a href="https://mikamir.carrd.co">Website</a>
       </div>
     </div>
-    <div class="portrait"><img src="live_guitar.jpg" alt="Mika on stage playing guitar under a spotlight"></div>
+    <div class="portrait"><img src="mikamir_hero2.jpg" alt="Mikamir portrait at night, curly hair in motion, black leather jacket"></div>
   </div>
 </header>
 
 <div class="wrap">
   <div class="glance">
-    <div><span class="mono dim">Now</span><span>Georgia Cavallo · Shaked Miller · Berlin gigs</span></div>
-    <div><span class="mono dim">Coming up</span><span>Lauren Lakis European tour, Apr 2027 · Mikamir EP, Jan 2027</span></div>
-    <div><span class="mono dim">Plays</span><span>Guitar · bass · drums · sax · keys</span></div>
+    <div><span class="mono dim">Out now</span><span>Debut album <i>Melting Ice Queen</i> (2025)</span></div>
+    <div><span class="mono dim">Coming up</span><span>Single "When You Say", 18 Dec 2026 · EP <i>Push Sadness Away</i>, 3 Jan 2027</span></div>
+    <div><span class="mono dim">Plays</span><span>Guitar · vocals · bass · drums · sax · keys</span></div>
   </div>
 </div>
 
 <main class="wrap">
 
-<section id="live">
-  <div class="head"><span class="mono num">01</span><h2>Live musician</h2></div>
-  <div class="credits">
-    <div class="credit"><span class="mono when">2026 – 2027</span><div><h3>Georgia Cavallo</h3><div class="role">Hired live musician</div></div><p>Upcoming shows and the tours planned for 2027.</p></div>
-    <div class="credit"><span class="mono when">Apr 2027</span><div><h3>Lauren Lakis</h3><div class="role">Live musician</div></div><p>European tour.</p></div>
-    <div class="credit"><span class="mono when">2026</span><div><h3>PORT NOO</h3><div class="role">Guitar · Germany tour</div></div><div><p>Hamburg (Reeperbahn), Munich, Bremen, Kiel, Berlin, Blankenburg, Nordendorf.</p><div class="links"><a href="https://www.br.de/br-fernsehen/sendungen/abendschau/as-permanetter-100.html">TV · Bayerisches Fernsehen ↗</a><a href="https://www.radioeins.de/programm/sendungen/mofr1921/interviews/port-noo.html">Radio · radioeins ↗</a></div></div></div>
-    <div class="credit"><span class="mono when">2025 – now</span><div><h3>Shaked Miller</h3><div class="role">Guitar · live trio</div></div><div><p>Vocals + Ableton, drums and guitar: rap in English and Hebrew over heavy, riff-driven rock.</p><div class="links"><a href="#watch">Video below</a><a href="https://youtu.be/u5vH609oWXU">YouTube ↗</a></div></div></div>
-    <div class="credit"><span class="mono when">2025</span><div><h3>Yam Gronich</h3><div class="role">Live musician</div></div><p>Tassa Bar, Tel Aviv.</p></div>
-    <div class="credit"><span class="mono when">2024 – 2025</span><div><h3>Lea Haggai</h3><div class="role">Guitar &amp; bass · band</div></div><p>Levontin 7, Cafe Migdalor (Tel Aviv Port), Sheikh Abreik festival.</p></div>
-    <div class="credit"><span class="mono when">2024</span><div><h3>MILLY</h3><div class="role">Band member</div></div><p>Album launch of "Bein HaShurot" with Lee Shai, Levontin 7, Tel Aviv.</p></div>
-    <div class="credit"><span class="mono when">Israel</span><div><h3>More in Tel Aviv</h3><div class="role">Guitar · bass</div></div><p>Guitar for Meirav Hellinger and Ori Kastiel, bass for Avri G; guitar in an Aner Shapira tribute show and two Mac Miller tribute shows.</p></div>
-    <div class="credit"><span class="mono when">Ongoing</span><div><h3>Berlin</h3><div class="role">Freelance &amp; substitute</div></div><p>Regular one-off gigs around the city.</p></div>
+<section id="mikamir">
+  <div class="head"><span class="mono num">01</span><h2>Music</h2></div>
+  <div class="own">
+    <figure style="margin:0;display:grid;gap:8px"><img src="melting_ice_queen.jpg" alt="Melting Ice Queen album artwork: a figure sitting under a streetlight at night"><figcaption class="dim" style="font-size:.82rem">Melting Ice Queen, 2025</figcaption></figure>
+    <div>
+      <p class="lead" style="margin-bottom:18px">Her own project: songs she writes, plays and self-produces, in a style she calls Dark Groove.</p>
+      <div class="timeline">
+        <div><span class="mono amber">2027</span><span>Self-produced second album</span></div>
+        <div><span class="mono amber">Jan 2027</span><span>EP <i>Push Sadness Away</i>, 3 Jan 2027 · single "When You Say", 18 Dec 2026</span></div>
+        <div><span class="mono amber">Mar 2026</span><span>Live with band at HaChalutz, Be&#39;er Sheva</span></div>
+        <div><span class="mono amber">2026</span><span>Single "No One Stays (Demo)"</span></div>
+        <div><span class="mono amber">Dec 2025</span><span>HaMertz 2, Tel Aviv · also opening act for Jonathan Lobel</span></div>
+        <div><span class="mono amber">Oct 2025</span><span>"Hall of Fame" festival, Park HaYarkon · Tamuz, Tel Aviv</span></div>
+        <div><span class="mono amber">Sep 2025</span><span>Debut album <a href="https://open.spotify.com/album/0faOG0hAsNgOOzqRsYdZyk"><i>Melting Ice Queen</i></a>, 9 tracks · singles "Denial", "Not Enough" (live, feat. Tom White)</span></div>
+      </div>
+      <iframe class="spot" src="https://open.spotify.com/embed/album/0faOG0hAsNgOOzqRsYdZyk?theme=0" title="Melting Ice Queen on Spotify" loading="lazy" allow="encrypted-media"></iframe>
+      <p class="dim" style="margin-top:14px;font-size:.92rem">With Tom White (feat. "Not Enough") · Tal Raufman (loop session) · opening for Jonathan Lobel</p>
+    </div>
   </div>
 </section>
 
 <section id="watch">
-  <div class="head"><span class="mono num">02</span><h2>Watch</h2></div>
-  <div class="videos">
-    <div class="video wide">
-      <video controls playsinline preload="metadata" poster="shaked_live_poster.jpg" src="shaked_live.mp4"></video>
-      <div class="meta"><b>Guitar with Shaked Miller</b><a href="https://youtu.be/u5vH609oWXU">YouTube ↗</a></div>
+  <div class="head"><span class="mono num">02</span><h2>Videos &amp; live</h2></div>
+  <div class="yt">
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/0C__Fvqfgts" title="Emptiness · official video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+      <div class="meta"><b>Emptiness · official video</b><a href="https://www.youtube.com/watch?v=0C__Fvqfgts">YouTube ↗</a></div>
     </div>
     <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/jgZK5Fj79E0" title="Typecast · official video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+      <div class="meta"><b>Typecast · official video</b><a href="https://www.youtube.com/watch?v=jgZK5Fj79E0">YouTube ↗</a></div>
+    </div>
+    <div class="video feature">
+      <iframe src="https://www.youtube-nocookie.com/embed/D3mxmc-KVGQ" title="The Mud · live at Hall of Fame festival, Tel Aviv" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+      <div class="meta"><b>The Mud · live at "Hall of Fame" festival</b><a href="https://www.youtube.com/watch?v=D3mxmc-KVGQ">YouTube ↗</a></div>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/gStS5COzhJQ" title="Not Enough (Live) feat. Tom White" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+      <div class="meta"><b>Not Enough (Live) feat. Tom White</b><a href="https://www.youtube.com/watch?v=gStS5COzhJQ">YouTube ↗</a></div>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/TLZCO2M9WNk" title="Mikamir × Tal Raufman · Live Loop Session" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+      <div class="meta"><b>Mikamir × Tal Raufman · Live Loop Session</b><a href="https://www.youtube.com/watch?v=TLZCO2M9WNk">YouTube ↗</a></div>
+    </div>
+  </div>
+
+  <div class="sub"><span class="mono dim">Live clips</span></div>
+  <div class="videos clips">
+    <div class="video">
+      <video controls playsinline preload="metadata" poster="hof_live_poster.jpg" src="hof_live.mp4"></video>
+      <div class="meta"><b>Mikamir · Show reel</b><a href="https://www.instagram.com/reel/DRkAIPdDSfd/">Instagram ↗</a></div>
+    </div>
+    <div class="video wide">
       <video controls playsinline preload="metadata" poster="hachalutz_live_poster.jpg" src="hachalutz_live.mp4"></video>
       <div class="meta"><b>Mikamir · HaChalutz, Be&#39;er Sheva, 2026</b><a href="https://www.instagram.com/reel/DVQ0GCHDadv/">Instagram ↗</a></div>
     </div>
@@ -251,110 +299,59 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
       <video controls playsinline preload="metadata" poster="mikamir_live_sax_poster.jpg" src="mikamir_live_sax.mp4"></video>
       <div class="meta"><b>Mikamir · guitar, vocals, sax</b><a href="https://www.instagram.com/reel/DVEHswJjfLe/">Instagram ↗</a></div>
     </div>
-    <div class="video wide">
-      <video controls playsinline preload="metadata" poster="mikamir_live_band_poster.jpg" src="mikamir_live_band.mp4"></video>
-      <div class="meta"><b>Mikamir · live with band and violin</b><a href="https://www.youtube.com/@mikamirmusic">YouTube channel ↗</a></div>
-    </div>
   </div>
 
   <div class="sub"><span class="mono dim">More online</span></div>
   <div class="list">
-    <a href="https://www.br.de/br-fernsehen/sendungen/abendschau/as-permanetter-100.html"><span>PORT NOO · Abendschau, Bayerisches Fernsehen</span><span>TV ↗</span></a>
-    <a href="https://www.radioeins.de/programm/sendungen/mofr1921/interviews/port-noo.html"><span>PORT NOO · radioeins</span><span>Radio ↗</span></a>
-    <a href="https://www.youtube.com/watch?v=D3mxmc-KVGQ"><span>The Mud · "Hall of Fame" festival</span><span>YouTube ↗</span></a>
-    <a href="https://www.instagram.com/reel/DRkAIPdDSfd/"><span>Live reel · "Hall of Fame" festival</span><span>Instagram ↗</span></a>
     <a href="https://www.instagram.com/reel/DSNebr2Ddlc/"><span>Alone · live at HaMertz 2</span><span>Instagram ↗</span></a>
-    <a href="https://www.youtube.com/watch?v=TLZCO2M9WNk"><span>Live Loop Session with Tal Raufman</span><span>YouTube ↗</span></a>
-    <a href="https://www.youtube.com/watch?v=gStS5COzhJQ"><span>Not Enough feat. Tom White</span><span>YouTube ↗</span></a>
-    <a href="https://www.youtube.com/watch?v=0C__Fvqfgts"><span>Emptiness · official video</span><span>YouTube ↗</span></a>
-    <a href="https://www.youtube.com/watch?v=jgZK5Fj79E0"><span>Typecast · official video</span><span>YouTube ↗</span></a>
+    <a href="https://www.youtube.com/watch?v=7He6Y3lTGe4"><span>No One Stays (Demo)</span><span>YouTube ↗</span></a>
     <a href="https://open.spotify.com/album/0faOG0hAsNgOOzqRsYdZyk"><span>Melting Ice Queen · album</span><span>Spotify ↗</span></a>
   </div>
 </section>
 
-<section id="mikamir">
-  <div class="head"><span class="mono num">03</span><h2>Mikamir</h2></div>
-  <div class="own">
-    <figure style="margin:0;display:grid;gap:8px"><img src="melting_ice_queen.jpg" alt="Melting Ice Queen album artwork: a figure sitting under a streetlight at night"><figcaption class="dim" style="font-size:.82rem">Melting Ice Queen, 2025</figcaption></figure>
-    <div>
-      <p class="lead" style="margin-bottom:18px">Her own project: songs she writes, plays and self-produces, in a style she calls Dark Groove.</p>
-      <div class="timeline">
-        <div><span class="mono amber">2027</span><span>Self-produced second album</span></div>
-        <div><span class="mono amber">Jan 2027</span><span>EP <i>Push Sadness Away</i> · first single out Nov 2026</span></div>
-        <div><span class="mono amber">Mar 2026</span><span>Live with band at HaChalutz, Be&#39;er Sheva</span></div>
-        <div><span class="mono amber">2026</span><span>Single "No One Stays (Demo)"</span></div>
-        <div><span class="mono amber">Sep 2025</span><span>Debut album <a href="https://open.spotify.com/album/0faOG0hAsNgOOzqRsYdZyk"><i>Melting Ice Queen</i></a>, 9 tracks · singles "Denial", "Not Enough" (live, feat. Tom White)</span></div>
-        <div><span class="mono amber">Dec 2024</span><span>HaMertz 2, Tel Aviv · also opening act for Jonathan Lobel</span></div>
-        <div><span class="mono amber">Oct 2024</span><span>"Hall of Fame" festival, Park HaYarkon · Tamuz, Tel Aviv</span></div>
-      </div>
-    </div>
+<section id="photos">
+  <div class="head"><span class="mono num">03</span><h2>On stage</h2></div>
+  <div class="gallery">
+    <img src="mika_stage.jpg" alt="Mikamir on stage playing a Telecaster at the mic" loading="lazy">
+    <img src="live/live2.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live3.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live4.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live5.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live6.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live7.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live8.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live9.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live10.jpg" alt="Mikamir live on stage, sax and vocals" loading="lazy">
+    <img src="live/live11.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live12.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live13.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live14.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live15.jpg" alt="Mikamir live on stage" loading="lazy">
+    <img src="live/live16.jpg" alt="Mikamir live on stage" loading="lazy">
   </div>
 </section>
 
-<section id="camera">
-  <div class="head"><span class="mono num">04</span><h2>Behind the camera</h2></div>
-  <p class="lead" style="margin-bottom:28px">Freelance videographer and video editor for live shows, events and press shots, mostly for musicians.</p>
-  <div class="videos">
-    <div class="video wide">
-      <video controls playsinline preload="metadata" poster="kodesh_live_poster.jpg" src="kodesh_live.mp4"></video>
-      <div class="meta"><b>Edog &amp; Shablul · "Kodesh" Live Session · filmed &amp; edited</b><a href="https://www.youtube.com/watch?v=FrdnT4_e4Ss">YouTube ↗</a></div>
-    </div>
-    <div class="video wide">
-      <video controls playsinline preload="metadata" poster="nada_live_poster.jpg" src="nada_live.mp4"></video>
-      <div class="meta"><b>Nada · live at Little Stage Club</b><a href="https://www.instagram.com/reel/DYm00thM8DG/">Instagram ↗</a></div>
-    </div>
-    <div class="video" style="align-content:start;gap:14px">
-      <div class="sub" style="margin:0"><span class="mono dim">Filmed &amp; edited</span></div>
-      <a href="https://www.youtube.com/watch?v=FrdnT4_e4Ss">Edog &amp; Shablul · "Kodesh" Live Session ↗</a>
-      <span class="dim" style="font-size:.9rem">2026, with Live_Zach</span>
-      <a href="https://www.instagram.com/lalarasnow/reel/DMmq5VstVuR/">Lara Snow · "Poetry Kids" music video ↗</a>
-      <span class="dim" style="font-size:.9rem">Assistant photography, BTS</span>
-      <div class="sub" style="margin:8px 0 0"><span class="mono dim">Live shows shot in Israel</span></div>
-      <span>Liam Hakmon · Daniel Rubin (Barby) · Nunu (Barby) · Nastia Rod · Peled · Ariela Baruch · Roni Kaspi (Roni Poni) · Gali Yolus</span>
-    </div>
-  </div>
-
-  <div class="sub"><span class="mono dim">Photography</span></div>
-  <div class="photos">
-    <figure class="tall"><img src="press1.jpg" alt="Press shot: portrait holding a book, low light"><figcaption>Press shot</figcaption></figure>
-    <figure class="tall"><img src="press2.jpg" alt="Press shot: portrait looking over a book"><figcaption>Press shot</figcaption></figure>
-    <figure class="tall"><img src="stage_light.jpg" alt="A musician on stage in an amber spotlight"><figcaption>Live</figcaption></figure>
-    <figure><img src="wed_couple.jpg" alt="Wedding couple laughing during the ceremony"><figcaption>Wedding, Berlin</figcaption></figure>
-    <figure><img src="wed_ceremony.jpg" alt="Wedding ceremony under stained-glass windows"><figcaption>Wedding, Berlin</figcaption></figure>
-    <figure><img src="wed_garden.jpg" alt="Wedding reception in a riverside garden"><figcaption>Wedding, Berlin</figcaption></figure>
-    <figure><img src="wed_stairs.jpg" alt="Guests climbing a staircase lit by stained glass"><figcaption>Wedding, Berlin</figcaption></figure>
-    <figure><img src="wed_staircase.jpg" alt="Spiral staircase detail in warm light"><figcaption>Wedding, Berlin</figcaption></figure>
+<section id="press">
+  <div class="head"><span class="mono num">04</span><h2>Press photos</h2></div>
+  <p class="dim" style="margin-top:6px">High-res press photos on request: <a href="mailto:mikamir.music@gmail.com">mikamir.music@gmail.com</a></p>
+  <div class="gallery nodl">
+    <img src="press/mikamir_press_1.jpg" alt="Mikamir press photo 1" loading="lazy" draggable="false" oncontextmenu="return false">
+    <img src="press/mikamir_press_2.jpg" alt="Mikamir press photo 2" loading="lazy" draggable="false" oncontextmenu="return false">
+    <img src="press/mikamir_press_3.jpg" alt="Mikamir press photo 3" loading="lazy" draggable="false" oncontextmenu="return false">
+    <img src="press/mikamir_press_4.jpg" alt="Mikamir press photo 4" loading="lazy" draggable="false" oncontextmenu="return false">
   </div>
 </section>
 
-<section id="credits">
-  <div class="head"><span class="mono num">05</span><h2>Worked with</h2></div>
-  <div class="names">
-    <div><span class="mono amber">As a musician</span><ul>
-      <li><a href="https://www.instagram.com/georgiacavallo/">Georgia Cavallo</a></li>
-      <li><a href="https://www.instagram.com/laurenlakis/">Lauren Lakis</a></li>
-      <li><a href="https://www.instagram.com/port_noo/">PORT NOO</a></li>
-      <li><a href="https://www.instagram.com/shakedmiller/">Shaked Miller</a></li>
-      <li><a href="https://www.instagram.com/lea.haggai/">Lea Haggai</a></li>
-      <li><a href="https://www.instagram.com/_milly_music/">MILLY</a> · <a href="https://www.instagram.com/lee_shai111/">Lee Shai</a></li>
-      <li><a href="https://www.instagram.com/yamgronich/">Yam Gronich</a></li>
-      <li>Meirav Hellinger</li>
-      <li><a href="https://www.instagram.com/oricastiel/">Ori Kastiel</a></li>
-      <li>Avri G</li>
-    </ul></div>
-    <div><span class="mono amber">With Mikamir</span><ul>
-      <li>Tom White <small>feat. "Not Enough"</small></li>
-      <li><a href="https://www.instagram.com/raufman_/">Tal Raufman</a> <small>loop session</small></li>
-      <li>Jonathan Lobel <small>opening act</small></li>
-    </ul></div>
-    <div><span class="mono amber">Behind the camera</span><ul>
-      <li><a href="https://www.instagram.com/nada_vocalist/">Nada</a></li>
-      <li>Edog &amp; Shablul</li>
-      <li><a href="https://www.instagram.com/lalarasnow/">Lara Snow</a></li>
-      <li>Liam Hakmon · Daniel Rubin · Nunu</li>
-      <li>Nastia Rod · Peled · Ariela Baruch</li>
-      <li>Roni Kaspi · Gali Yolus</li>
-    </ul></div>
+<section id="live">
+  <div class="head"><span class="mono num">05</span><h2>Also on stage</h2></div>
+  <p class="dim" style="margin-bottom:14px">Mika also plays guitar and bass live for other artists:</p>
+  <div class="also">
+    <div><span class="mono">2026 – 27</span><span>Georgia Cavallo · live band</span></div>
+    <div><span class="mono">Apr 2027</span><span>Lauren Lakis · European tour</span></div>
+    <div><span class="mono">2026</span><span>PORT NOO · Germany tour (<a href="https://www.br.de/br-fernsehen/sendungen/abendschau/as-permanetter-100.html">TV</a>, <a href="https://www.radioeins.de/programm/sendungen/mofr1921/interviews/port-noo.html">radio</a>)</span></div>
+    <div><span class="mono">2025 – now</span><span>Shaked Miller · live trio (<a href="https://www.youtube.com/watch?v=u5vH609oWXU">video</a>)</span></div>
+    <div><span class="mono">2024 – 25</span><span>Lea Haggai · MILLY · Yam Gronich</span></div>
+    <div><span class="mono">Berlin</span><span>Freelance &amp; substitute gigs</span></div>
   </div>
 </section>
 </main>
@@ -362,7 +359,7 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 <footer>
   <div class="wrap">
     <div class="mono amber">Booking</div>
-    <h2 style="margin:12px 0 14px">Live bands, tours, sessions, substitute gigs and video work.</h2>
+    <h2 style="margin:12px 0 14px">Shows, sessions and collaborations.</h2>
     <p class="dim">Based in Berlin · speaks Hebrew and English · own gear</p>
     <div class="contact">
       <span>mikamir.music@gmail.com</span>
@@ -380,7 +377,7 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
     <div>
       <div class="mono amber">Artist CV</div>
       <h1 style="margin-top:10px">Mika <em>Amir</em>&#8209;Anzwieg</h1>
-      <p class="roles" style="margin:14px 0 0"><b>Guitarist</b> · multi-instrumentalist · artist as <b>Mikamir</b> · videographer · Berlin</p>
+      <p class="roles" style="margin:14px 0 0"><b>Guitarist</b> · multi-instrumentalist · artist as <b>Mikamir</b> · Berlin</p>
     </div>
     <div class="cv-contact">
       <span>mikamir.music@gmail.com</span>
@@ -393,7 +390,7 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
   </div>
 
   <h2>Bio</h2>
-  <p class="lead">Berlin-based, self-taught multi-instrumentalist (guitar, bass, drums, sax, keys). She plays live for Georgia Cavallo and Shaked Miller, toured Germany on guitar with PORT NOO in 2026, including Bayerisches Fernsehen and radioeins, and joins Lauren Lakis on her European tour in April 2027. Before Berlin she played guitar and bass in Israel with Lea Haggai, Meirav Hellinger, Ori Kastiel, Avri G, MILLY and Yam Gronich, plus tribute shows for Aner Shapira and Mac Miller. As Mikamir she writes and self-produces Dark Groove (debut album <i>Melting Ice Queen</i>, 2025), and works freelance as a videographer and video editor for musicians.</p>
+  <p class="lead">Berlin-based, self-taught multi-instrumentalist (guitar, bass, drums, sax, keys). She plays live for Georgia Cavallo and Shaked Miller, toured Germany on guitar with PORT NOO in 2026, including Bayerisches Fernsehen and radioeins, and joins Lauren Lakis on her European tour in April 2027. Before Berlin she played guitar and bass in Israel with Lea Haggai, Meirav Hellinger, Ori Kastiel, Avri G, MILLY and Yam Gronich, plus tribute shows for Aner Shapira and Mac Miller. As Mikamir she writes and self-produces Dark Groove (debut album <i>Melting Ice Queen</i>, 2025).</p>
 
   <h2>Live / Touring</h2>
   <div class="tablewrap"><table>
@@ -408,9 +405,9 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
     <tr><td>2024–2025</td><td>Lea Haggai (Mizotlea) band – guitar / bass</td><td>Levontin 7; Cafe Migdalor (Tel Aviv Port); Sheikh Abreik festival</td><td>Israel</td></tr>
     <tr><td>Israel</td><td>Meirav Hellinger · Ori Kastiel – guitar; Avri G – bass</td><td>Live shows</td><td>Israel</td></tr>
     <tr><td>Israel</td><td>Aner Shapira tribute · Mac Miller tributes (×2) – guitar</td><td>Tribute shows</td><td>Israel</td></tr>
-    <tr><td>Dec 2024</td><td>Mikamir · opening act for Jonathan Lobel</td><td>HaMertz 2 (<a href="https://www.instagram.com/reel/DSNebr2Ddlc/">Alone</a>, <a href="https://www.instagram.com/reel/DVEHswJjfLe/">sax solo</a>)</td><td>Tel Aviv</td></tr>
-    <tr><td>Oct 2024</td><td>Mikamir</td><td>"Hall of Fame" festival, Park HaYarkon (<a href="https://www.youtube.com/watch?v=D3mxmc-KVGQ">The Mud</a>, <a href="https://www.instagram.com/reel/DRkAIPdDSfd/">live reel</a>)</td><td>Tel Aviv</td></tr>
-    <tr><td>Oct 2024</td><td>Mikamir</td><td>Tamuz</td><td>Tel Aviv</td></tr>
+    <tr><td>Dec 2025</td><td>Mikamir · opening act for Jonathan Lobel</td><td>HaMertz 2 (<a href="https://www.instagram.com/reel/DSNebr2Ddlc/">Alone</a>, <a href="https://www.instagram.com/reel/DVEHswJjfLe/">sax solo</a>)</td><td>Tel Aviv</td></tr>
+    <tr><td>Oct 2025</td><td>Mikamir</td><td>"Hall of Fame" festival, Park HaYarkon (<a href="https://www.youtube.com/watch?v=D3mxmc-KVGQ">The Mud</a>, <a href="https://www.instagram.com/reel/DRkAIPdDSfd/">live reel</a>)</td><td>Tel Aviv</td></tr>
+    <tr><td>Oct 2025</td><td>Mikamir</td><td>Tamuz</td><td>Tel Aviv</td></tr>
     <tr><td>Sep 2024</td><td>MILLY (Lee Shai) – band member</td><td>Album launch "Bein HaShurot", Levontin 7</td><td>Tel Aviv</td></tr>
   </table></div>
 
@@ -419,23 +416,13 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
   <div class="tablewrap"><table>
     <tr><th>When</th><th>Title</th><th>Type</th></tr>
     <tr><td>2027</td><td>Second album (self-produced)</td><td>Album · upcoming</td></tr>
-    <tr><td>Jan 2027</td><td><i>Push Sadness Away</i> · first single Nov 2026</td><td>EP · upcoming</td></tr>
+    <tr><td>Jan 2027</td><td><i>Push Sadness Away</i> · 3 Jan 2027 · single "When You Say", 18 Dec 2026</td><td>EP · upcoming</td></tr>
     <tr><td>2026</td><td><a href="https://www.youtube.com/watch?v=7He6Y3lTGe4">No One Stays (Demo)</a></td><td>Single</td></tr>
     <tr><td>Sep 2025</td><td><a href="https://open.spotify.com/album/0faOG0hAsNgOOzqRsYdZyk"><i>Melting Ice Queen</i></a> · 9 tracks</td><td>Album</td></tr>
     <tr><td>2025</td><td><a href="https://www.youtube.com/watch?v=0uIPH7gNL84">Denial</a></td><td>Single</td></tr>
     <tr><td>2025</td><td><a href="https://www.youtube.com/watch?v=gStS5COzhJQ">Not Enough (Live) feat. Tom White</a></td><td>Single</td></tr>
     <tr><td>—</td><td><a href="https://www.youtube.com/watch?v=0C__Fvqfgts">Emptiness</a> · <a href="https://www.youtube.com/watch?v=jgZK5Fj79E0">Typecast</a></td><td>Music videos</td></tr>
   </table></div>
-
-  <h2>Video &amp; Photography</h2>
-  <ul>
-    <li>Freelance videographer (live shows, events, press shots) and video editor, mostly for musicians</li>
-    <li>Live shows shot in Israel: Liam Hakmon; Daniel Rubin (Barby); Nunu (Barby); Nastia Rod; Peled; Ariela Baruch; Roni Kaspi (Roni Poni); Gali Yolus</li>
-    <li>Live session: Edog &amp; Shablul – <a href="https://www.youtube.com/watch?v=FrdnT4_e4Ss">"Kodesh" Live Session</a>, filmed and edited with Live_Zach (2026)</li>
-    <li>Live video: <a href="https://www.instagram.com/reel/DYm00thM8DG/">Nada at Little Stage Club</a>, Berlin</li>
-    <li>Music video: Lara Snow – <a href="https://www.instagram.com/lalarasnow/reel/DMmq5VstVuR/">"Poetry Kids"</a>, assistant photography / BTS (2025)</li>
-    <li>Press shots and event photography (weddings), Berlin</li>
-  </ul>
 
   <h2>Education</h2>
   <ul><li>Self-taught on guitar, bass, saxophone, drums and keys</li></ul>
@@ -460,7 +447,7 @@ html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
     document.getElementById('view-portfolio').hidden = cv;
     document.getElementById('nav-cv').setAttribute('aria-current', cv ? 'page' : 'false');
     document.getElementById('nav-portfolio').setAttribute('aria-current', cv ? 'false' : 'page');
-    document.title = cv ? 'Mikamir – CV' : 'Mikamir – Portfolio & CV';
+    document.title = cv ? 'Mikamir – CV' : 'Mikamir – Dark Groove music';
     if (location.hash === '#cv' || location.hash === '#portfolio') window.scrollTo(0,0);
   }
   window.addEventListener('hashchange', show);
